@@ -31,6 +31,7 @@ export const Sidebar = ({
       >
         <div className="flex flex-col w-64 p-2 bg-gray-900">
           <div
+            onClick={onNewChat}
             className="flex items-center p-3 rounded-md
                         text-sm cursor-pointer border border-white/20 hover:bg-gray-500/20
                         transition-all duration-150"
